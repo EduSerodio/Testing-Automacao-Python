@@ -1,11 +1,11 @@
 *** Settings ***
 Library   SeleniumLibrary
-Resource  eduardoLaura.resource
+Resource  eduardoLaura2.resource
 
 
 *** Test Cases ***
 
-#PRIMEIRO CASO DE TESTING (ROUPA MASCULINA)
+#SEGUNDO CASO DE TESTING (ROUPA FEMININA)
 Processo de compra de uma peça feminina/masculina/sportswear no site Spree Demo
   Abrir site
   Selecionar sessao

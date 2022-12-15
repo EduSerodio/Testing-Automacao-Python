@@ -3,15 +3,15 @@ Library   SeleniumLibrary
 
 #EDUARDO SERODIO /  LAURA DE FREITAS
 
-#PRIMEIRO CASO DE TESTE
+#SEGUNDO CASO DE TESTING
 
 *** Variables ***
 
 #INICIANDO PROCESSO DE COMPRA
 ${SITE}                   https://demo.spreecommerce.org/
 ${NAVEGADOR}              Chrome
-${SELECIONAR_SESSAO}      css=.row:nth-child(1) .homepage-hpb
-${SELECIONAR_PRODUTO}     css=#product_1 .product-component-image
+${SELECIONAR_SESSAO}      css=.col-6 > .homepage-taxon-box .homepage-hpb
+${SELECIONAR_PRODUTO}     css=#product_46 .product-component-image
 ${BOTAO_ADICIONAR}        id=add-to-cart-button
 ${BOTAO_CHECKOUT}         css=.btn-primary:nth-child(1)
 
